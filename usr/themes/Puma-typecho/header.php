@@ -24,7 +24,6 @@
     <?php $this->header(); ?>
 </head>
 <body>
-<?php include_once("baidu_js_push.php") ?>
 <div class="surface-content">
     <header class="site-header u-textAlignCenter hasImage">
         <h1 class="site-title">
@@ -34,7 +33,7 @@
         </p>
         <div class="social-links">
 <span class="social-link">
-<a target="_blank" href="#">
+<a target="_blank" href="https://weibo.com/u/5092435139">
     <svg class="icon" viewBox="0 0 16 16" width="16" height="16">
         <use xlink:href="<?php $this->options->themeUrl('/static/img/svgdefs.svg'); ?>#icon-sina-weibo">
     </svg>
