@@ -104,8 +104,7 @@ $this->need('header.php');
 		<?php endwhile; ?>
 		</div>
 	</div>
-	<div class="lists-navigator clearfix">
-    <?php $this->pageNav('←','→','2','...'); ?>
+	<div style="width:80%;height:1px;background-color:black;margin: 0% 10% 0%">
   </div>
 </div>
 

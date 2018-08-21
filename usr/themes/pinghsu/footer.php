@@ -1,7 +1,7 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
 <footer id="footer" class="footer <?php if (array_key_exists('archive',unserialize($this->___fields()))): ?>bg-white<?php elseif($this->is('archive')&&($this->options->colorBgPosts == 'defaultColor')): ?>bg-white<?php elseif($this->is('archive')&&($this->options->colorBgPosts == 'customColor')): ?>bg-grey<?php elseif($this->is('single')): ?>bg-white<?php endif; ?>">
-	<div class="footer-social">
+	<!--<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
 			<?php if ($this->options->socialweibo): ?>
@@ -19,7 +19,7 @@
 			<?php endif; ?>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<div class="footer-meta">
 		<div class="footer-container">
 			<div class="meta-item meta-copyright">
