@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Typecho Blog Platform
  *
@@ -57,7 +57,7 @@ $db->addServer(array (
   'host' => 'localhost',
   'user' => 'furao',
   'password' => 'furao123456',
-  'charset' => 'utf8',
+  'charset' => 'utf8mb4',
   'port' => '3306',
   'database' => 'typecho',
 ), Typecho_Db::READ | Typecho_Db::WRITE);

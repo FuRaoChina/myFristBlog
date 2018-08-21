@@ -1,4 +1,5 @@
 <?php
+define('__TYPECHO_DEBUG__',true);
 include 'common.php';
 include 'header.php';
 include 'menu.php';

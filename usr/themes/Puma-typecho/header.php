@@ -24,6 +24,7 @@
     <?php $this->header(); ?>
 </head>
 <body>
+<?php include_once("baidu_js_push.php") ?>
 <div class="surface-content">
     <header class="site-header u-textAlignCenter hasImage">
         <h1 class="site-title">
